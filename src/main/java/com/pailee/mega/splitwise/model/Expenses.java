@@ -14,6 +14,7 @@ import java.util.Date;
 @Table(name = "EXPENSES")
 public class Expenses {
 
+    //This is just BO class
     @Id
     @GeneratedValue
     private long id;
